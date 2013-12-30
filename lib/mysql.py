@@ -4,8 +4,56 @@
 """mysql class"""
 
 import MySQLdb
+import MySQLdb.cursors
 
 class MySQL:
+    _con = None
+    _cursor = None
+    
     def __init__(self, **config):
-        print config
-        pass
+        default_config = {
+                          'host' : 'localhost',
+                          'user' : 'root',
+                          'passwd' : '',
+                          'charset' : 'utf8',
+                          'db' : 'test',
+                          'cursorclass' : MySQLdb.cursors.DictCursor,
+                          }
+        self._con = MySQLdb.connect(**dict(default_config, **config))
+        self._cursor = self._con.cursor()
+        
+    def query(self, sql = None):
+        if sql:
+            try:
+                self._cursor.execute(sql)
+            except Exception as e:
+                print "Exception: %s" % e
+            
+    def get_one(self, sql = None):
+        ret = ()
+        if sql:
+            self.query(sql)
+            ret = self._cursor.fetchone()
+        return ret
+        
+    def get_row(self, sql = None):
+        ret = ()
+        if sql:
+            self.query(sql)
+            ret = self._cursor.fetchmany()[0]
+        return ret
+    
+    def get_all(self, sql = None):
+        ret = ()
+        if sql:
+            self.query(sql)
+            ret = self._cursor.fetchall()
+        return ret
+    
+    def commit(self):
+        self._con.commit()
+    
+    def __del__(self):
+        self._con.close()
+        
+        
