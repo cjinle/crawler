@@ -14,3 +14,13 @@ class SpiderItem(Item):
 class LinkItem(Item):
     post_id = Field()
     url = Field()
+    
+
+class ContentItem(Item):
+    add_time = Field()
+    post_id = Field()
+    title = Field()
+    keywords = Field()
+    desc = Field()
+    content = Field()
+    

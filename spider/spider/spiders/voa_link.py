@@ -9,12 +9,14 @@ class VoaLinkSpider(CrawlSpider):
     start_urls = ['http://www.51voa.com/']
 
     rules = (
-        Rule(SgmlLinkExtractor(allow=r'Items/'), callback='parse_item', follow=True),
+        Rule(SgmlLinkExtractor(allow=[r'VOA_Special_English/',r'VOA_Standard_English/']), callback='parse_item', follow=True),
     )
 
     def parse_item(self, response):
         sel = Selector(response)
         i = SpiderItem()
+        print response
+        
         #i['domain_id'] = sel.xpath('//input[@id="sid"]/@value').extract()
         #i['name'] = sel.xpath('//div[@id="name"]').extract()
         #i['description'] = sel.xpath('//div[@id="description"]').extract()
