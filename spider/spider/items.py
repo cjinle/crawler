@@ -9,3 +9,8 @@ class SpiderItem(Item):
     # define the fields for your item here like:
     # name = Field()
     pass
+
+
+class LinkItem(Item):
+    post_id = Field()
+    url = Field()
