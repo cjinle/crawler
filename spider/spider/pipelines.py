@@ -4,11 +4,11 @@
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
 import sys
-sys.path.insert(0, '../../lib')
+sys.path.insert(0, '/media/crawler/lib')
 import ConfigParser
-import logging
 
 from mysql import MySQL
+from scrapy import log
 
 
 class SpiderPipeline(object):
@@ -16,14 +16,14 @@ class SpiderPipeline(object):
     
     def __init__(self):
         config = ConfigParser.ConfigParser()
-        config.read('../../config/config.cfg')
+        config.read('/media/crawler/config/config.cfg')
         db_config = config._sections['db']
         db_config.pop('__name__')
         self._db = MySQL(**db_config)
+        log.start('/media/crawler/logs/scrapy.log')
     
     def process_item(self, item, spider):
-        print item
-        
+        log.msg("url: %s" % item['url'], level=log.DEBUG)
         return item
     
     
