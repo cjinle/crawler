@@ -2,7 +2,7 @@
  Crawler Project 
 ======================
 
-[主页](http://lok.me)
+[page](http://lok.me)
 
 __hello__
 
