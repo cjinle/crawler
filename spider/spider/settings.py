@@ -15,5 +15,8 @@ ITEM_PIPELINES = {
                   'spider.pipelines.SpiderPipeline' : 300,
                   }
 
+LOG_FILE = '/media/crawler/logs/scrapy.log'
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'spider (+http://www.yourdomain.com)'
+

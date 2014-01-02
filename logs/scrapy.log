@@ -1,0 +1,36 @@
+2014-01-02 17:14:03+0800 [scrapy] INFO: Scrapy 0.20.2 started (bot: spider)
+2014-01-02 17:14:03+0800 [scrapy] DEBUG: Optional features available: ssl, http11, django
+2014-01-02 17:14:03+0800 [scrapy] DEBUG: Overridden settings: {'NEWSPIDER_MODULE': 'spider.spiders', 'SPIDER_MODULES': ['spider.spiders'], 'LOG_FILE': '/media/crawler/logs/scrapy.log', 'BOT_NAME': 'spider'}
+2014-01-02 17:14:03+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-01-02 17:14:03+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2014-01-02 17:14:03+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2014-01-02 17:14:03+0800 [scrapy] DEBUG: Enabled item pipelines: SpiderPipeline
+2014-01-02 17:14:03+0800 [vcontent] INFO: Spider opened
+2014-01-02 17:14:03+0800 [vcontent] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2014-01-02 17:14:03+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2014-01-02 17:14:03+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2014-01-02 17:14:04+0800 [vcontent] DEBUG: Crawled (200) <GET http://www.51voa.com/Voa_English_Learning/south-sudan-government-and-rebels-to-hold-talks-to-end-violence-54269.html> (referer: None)
+2014-01-02 17:14:04+0800 [vcontent] DEBUG: Crawled (200) <GET http://www.51voa.com/VOA_Standard_English/the-year-in-roots-music-54272.html> (referer: None)
+2014-01-02 17:14:04+0800 [scrapy] INFO: response: ['_DEFAULT_ENCODING', '__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__slots__', '__str__', '__subclasshook__', '__weakref__', '_auto_detect_fun', '_body', '_body_declared_encoding', '_body_inferred_encoding', '_cached_benc', '_cached_ubody', '_declared_encoding', '_encoding', '_get_body', '_get_url', '_headers_encoding', '_set_body', '_set_url', '_url', 'body', 'body_as_unicode', 'copy', 'encoding', 'flags', 'headers', 'meta', 'replace', 'request', 'status', 'url']
+2014-01-02 17:14:04+0800 [scrapy] INFO: response: ['_DEFAULT_ENCODING', '__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__slots__', '__str__', '__subclasshook__', '__weakref__', '_auto_detect_fun', '_body', '_body_declared_encoding', '_body_inferred_encoding', '_cached_benc', '_cached_ubody', '_declared_encoding', '_encoding', '_get_body', '_get_url', '_headers_encoding', '_set_body', '_set_url', '_url', 'body', 'body_as_unicode', 'copy', 'encoding', 'flags', 'headers', 'meta', 'replace', 'request', 'status', 'url']
+2014-01-02 17:14:04+0800 [vcontent] DEBUG: Crawled (200) <GET http://www.51voa.com/VOA_Standard_English/the-year-in-roots-music-54272.html> (referer: None)
+2014-01-02 17:14:04+0800 [scrapy] INFO: response: ['_DEFAULT_ENCODING', '__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__slots__', '__str__', '__subclasshook__', '__weakref__', '_auto_detect_fun', '_body', '_body_declared_encoding', '_body_inferred_encoding', '_cached_benc', '_cached_ubody', '_declared_encoding', '_encoding', '_get_body', '_get_url', '_headers_encoding', '_set_body', '_set_url', '_url', 'body', 'body_as_unicode', 'copy', 'encoding', 'flags', 'headers', 'meta', 'replace', 'request', 'status', 'url']
+2014-01-02 17:14:04+0800 [vcontent] INFO: Closing spider (finished)
+2014-01-02 17:14:04+0800 [vcontent] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 862,
+	 'downloader/request_count': 3,
+	 'downloader/request_method_count/GET': 3,
+	 'downloader/response_bytes': 29341,
+	 'downloader/response_count': 3,
+	 'downloader/response_status_count/200': 3,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2014, 1, 2, 9, 14, 4, 94747),
+	 'log_count/DEBUG': 9,
+	 'log_count/INFO': 6,
+	 'response_received_count': 3,
+	 'scheduler/dequeued': 3,
+	 'scheduler/dequeued/memory': 3,
+	 'scheduler/enqueued': 3,
+	 'scheduler/enqueued/memory': 3,
+	 'start_time': datetime.datetime(2014, 1, 2, 9, 14, 3, 794452)}
+2014-01-02 17:14:04+0800 [vcontent] INFO: Spider closed (finished)
