@@ -34,3 +34,239 @@
 	 'scheduler/enqueued/memory': 3,
 	 'start_time': datetime.datetime(2014, 1, 2, 9, 14, 3, 794452)}
 2014-01-02 17:14:04+0800 [vcontent] INFO: Spider closed (finished)
+2014-01-10 16:53:48+0800 [scrapy] INFO: Scrapy 0.20.2 started (bot: spider)
+2014-01-10 16:53:48+0800 [scrapy] DEBUG: Optional features available: ssl, http11, django
+2014-01-10 16:53:48+0800 [scrapy] DEBUG: Overridden settings: {'NEWSPIDER_MODULE': 'spider.spiders', 'SPIDER_MODULES': ['spider.spiders'], 'LOG_FILE': '/media/crawler/logs/scrapy.log', 'BOT_NAME': 'spider'}
+2014-01-10 16:53:48+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-01-10 16:53:48+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2014-01-10 16:53:48+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2014-01-10 16:53:48+0800 [scrapy] DEBUG: Enabled item pipelines: SpiderPipeline
+2014-01-10 16:53:48+0800 [voa_link] INFO: Spider opened
+2014-01-10 16:53:48+0800 [voa_link] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2014-01-10 16:53:48+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2014-01-10 16:53:48+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Crawled (200) <GET http://www.51voa.com/> (referer: None)
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54397',
+	 'url': u'/VOA_Special_English/janet-yellen-confirmed-as-new-fed-chief-54397.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54389',
+	 'url': u'/VOA_Standard_English/slew-of-new-products-unveiled-at-consumer-electronics-show-54389.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54387',
+	 'url': u'/VOA_Standard_English/thailand-braces-for-protests-ahead-of-february-elections-54387.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54386',
+	 'url': u'/VOA_Standard_English/musharraf-from-powerful-ruler-to-prisoner-54386.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54396',
+	 'url': u'/VOA_Standard_English/us-steps-up-pressure-on-karzai-to-sign-security-agreement-54396.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54384',
+	 'url': u'/Voa_English_Learning/808-get-a-fix-on-54384.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54383',
+	 'url': u'/Voa_English_Learning/rodman-apologizes-for-comments-on-us-citizen-held-in-nkorea-54383.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54382',
+	 'url': u'/Voa_English_Learning/abe-taking-japan-down-very-dangerous-path-54382.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54385',
+	 'url': u'/Voa_English_Learning/American_English_Mosaic-54385.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54381',
+	 'url': u'/VOA_Special_English/northern-nigeria-launches-massive-literacy-campaign-54381.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54380',
+	 'url': u'/VOA_Special_English/synagogue-burma-fires-54380.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54376',
+	 'url': u'/VOA_Standard_English/us-closely-monitors-iraq-violence-but-has-few-options-54376.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54375',
+	 'url': u'/VOA_Standard_English/rodman-makes-controversial-remarks-trip-north-korea-54375.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54372',
+	 'url': u'/VOA_Standard_English/malaysians-brace-as-government-cuts-key-subsidies-to-balance-budget-54372.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54369',
+	 'url': u'/VOA_Standard_English/cambodia-tensions-escalate-amid-protest-ban-54369.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54368',
+	 'url': u'/VOA_Standard_English/curved-screens-wearable-technologies-dominate-consumer-electronic-show-54368.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54379',
+	 'url': u'/VOA_Standard_English/islamic-militants-fight-in-iraq-war-in-syria-spills-over-54379.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54378',
+	 'url': u'/VOA_Standard_English/kerry-faces-more-hurdles-in-pursuit-of-mideast-peace-54378.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54377',
+	 'url': u'/VOA_Standard_English/ten-years-roving-around-mars-54377.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54366',
+	 'url': u'/Voa_English_Learning/1940-out-of-state-54366.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54365',
+	 'url': u'/Voa_English_Learning/1939-pale-in-comparison-54365.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54364', 'url': u'/Voa_English_Learning/1938-rekindle-54364.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54363', 'url': u'/Voa_English_Learning/1937-negative-54363.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54362',
+	 'url': u'/Voa_English_Learning/1936-accomplish-54362.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54361',
+	 'url': u'/Voa_English_Learning/chinese-russian-vessels-break-free-from-antarctic-ice-54361.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54360',
+	 'url': u'/Voa_English_Learning/pentagon-announces-new-troop-deployment-to-south-korea---54360.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54359',
+	 'url': u'/VOA_Special_English/fda-questions-safety-of-antibacterial-soaps-54359.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54358',
+	 'url': u'/VOA_Special_English/unhcr-helps-displaced-south-sudan-car-central-african-republic-refugees-54358.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54357',
+	 'url': u'/VOA_Standard_English/us-mexico-environmental-cooperation-54357.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54352',
+	 'url': u'/VOA_Standard_English/top-songs-for-week-ending-11january14-54352.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54350',
+	 'url': u'/Voa_English_Learning/thai-opposition-protesters-rally-support-for-bangkok-shutdown-54350.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54349',
+	 'url': u'/Voa_English_Learning/record-cold-freezes-much-of-us-54349.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54348',
+	 'url': u'/VOA_Special_English/us-farmers-concerned-with-epa-changes-to-ethanol-requirements-54348.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54347',
+	 'url': u'/VOA_Special_English/vietnam-pollution-dams-54347.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54346',
+	 'url': u'/VOA_Special_English/agriculture-africa-women-farmers-plantwise-protection-pests-diseases-54346.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54343',
+	 'url': u'/VOA_Standard_English/economic-aspects-of-the-asia-rebalance-54343.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54342',
+	 'url': u'/VOA_Standard_English/aquaculture-for-a-safer-environment-54342.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54345',
+	 'url': u'/VOA_Standard_English/call-for-responsible-behavior-at-sea-54345.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54344',
+	 'url': u'/VOA_Standard_English/designation-of-al-mulathamun-batallion-54344.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54341',
+	 'url': u'/VOA_Standard_English/washington-week-focus-on-us-unemployed-54341.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54336',
+	 'url': u'/Voa_English_Learning/south-korea-calls-for-renewed-family-reunions-54336.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54335',
+	 'url': u'/Voa_English_Learning/us-senate-voting-on-yellen-as-central-bank-chief---54335.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54334',
+	 'url': u'/VOA_Special_English/pre-natal-care-goes-mobile-in-uganda-54334.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54331',
+	 'url': u'/VOA_Special_English/quinceanera-party-usa-54331.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54332',
+	 'url': u'/VOA_Special_English/animal-diseases-hiv-bird-flu-trachoma-kenya-amref-54332.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54329',
+	 'url': u'/VOA_Standard_English/lyndon-b-johnson--year-war-on-poverty-brings-progress-not-victory-54329.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54319',
+	 'url': u'/VOA_Special_English/calendars-elvis-marilyn-monroe-new-years-54319.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54318', 'url': u'/VOA_Special_English/all-about-cats-54318.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54321',
+	 'url': u'/VOA_Standard_English/calls-for-release-of-dinh-dang-dinh-54321.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54320', 'url': u'/VOA_Standard_English/mali-and-agoa-54320.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54316',
+	 'url': u'/VOA_Standard_English/returning-us-lawmakers-face-debt-ceiling-immigration-challenges-54316.html'}
+2014-01-10 16:53:49+0800 [scrapy] DEBUG: spider: voa_link
+2014-01-10 16:53:49+0800 [voa_link] DEBUG: Scraped from <200 http://www.51voa.com/>
+	{'post_id': u'54323',
+	 'url': u'/VOA_Standard_English/voice-of-reason-silenced-in-beirut-54323.html'}
+2014-01-10 16:53:49+0800 [voa_link] INFO: Closing spider (finished)
+2014-01-10 16:53:49+0800 [voa_link] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 219,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 22433,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2014, 1, 10, 8, 53, 49, 532873),
+	 'item_scraped_count': 52,
+	 'log_count/DEBUG': 111,
+	 'log_count/INFO': 3,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'start_time': datetime.datetime(2014, 1, 10, 8, 53, 48, 853678)}
+2014-01-10 16:53:49+0800 [voa_link] INFO: Spider closed (finished)
