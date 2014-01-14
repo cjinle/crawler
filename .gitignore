@@ -1,0 +1,11 @@
+# ignore files
+
+*.py[co]
+*.log
+!config/config.cfg
+logs/
+
+# eclipse files
+.project
+.pydevproject
+
