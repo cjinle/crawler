@@ -8,4 +8,4 @@ logs/
 # eclipse files
 .project
 .pydevproject
-
+.settings/
